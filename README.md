@@ -1,6 +1,6 @@
 # Vancouver Parcel Lot Analysis Tool
 
-> **Live Demo:** _[TODO: add deployment URL, e.g. https://your-app.vercel.app]_
+> **Live Demo:** https://vancouver-parcel-lot-analysis-tool.vercel.app/
 
 A React + TypeScript web app for parcel selection and edge-type classification in Vancouver.
 
