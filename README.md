@@ -4,8 +4,21 @@
 
 A React + TypeScript web app for parcel selection and edge-type classification in Vancouver.
 
-<!-- TODO: replace the line below with an actual screenshot or GIF of the app -->
-<!-- ![App screenshot](docs/screenshot.png) -->
+### Corner Lot
+![Corner Lot](screenshots/corner-lot.png)
+![Corner Lot 2](screenshots/corner-lot-2.png)
+![Corner Lot 3](screenshots/corner-lot-3.png)
+![Corner Lot 4](screenshots/corner-lot-4.png)
+
+### Standard with Lane
+![Standard with Lane](screenshots/standard-with-lane.png)
+![Standard with Lane 2](screenshots/standard-with-lane-2.png)
+
+### Standard without Lane
+![Standard without Lane](screenshots/standard-without-lane.png)
+![Standard without Lane 2](screenshots/standard-without-lane-2.png)
+![Standard without Lane 3](screenshots/standard-without-lane-3.png)
+
 
 ## Functional Requirements Implemented
 
