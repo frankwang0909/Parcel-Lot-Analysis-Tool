@@ -1,0 +1,23 @@
+/// <reference types="vitest" />
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+
+// https://vite.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          'vendor-mapbox': ['mapbox-gl'],
+          'vendor-turf': ['@turf/turf'],
+          'vendor-react': ['react', 'react-dom'],
+        },
+      },
+    },
+  },
+  test: {
+    environment: 'node',
+    globals: true,
+  },
+})
